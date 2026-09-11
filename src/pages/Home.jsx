@@ -42,7 +42,7 @@ const Home = () => {
                 Shop Now <ArrowRight className="w-5 h-5" />
               </Link>
               <Link to="/products" className="border border-gray-300 px-6 py-3 rounded-lg font-semibold text-gray-700 hover:bg-gray-50 transition">
-                View Deals
+                View Dealsssss
               </Link>
             </div>
           </div>
