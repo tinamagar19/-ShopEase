@@ -50,7 +50,7 @@ const ProductDetails = () => {
         </button>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-12 p-8">
-          {/* Image Gallery */}
+       
           <div className="space-y-4">
             <div className="h-[400px] w-full bg-gray-100 rounded-xl overflow-hidden border">
               <img 
@@ -74,7 +74,7 @@ const ProductDetails = () => {
             )}
           </div>
 
-          {/* Product Info */}
+        
           <div className="flex flex-col">
             {product.brand && (
               <span className="text-sm font-semibold text-rose-600 uppercase tracking-wider mb-2">
@@ -101,7 +101,7 @@ const ProductDetails = () => {
 
             <p className="text-gray-600 mb-8 leading-relaxed">{product.description}</p>
 
-            {/* Sizes */}
+          
             {product.sizes && product.sizes.length > 0 && (
               <div className="mb-6">
                 <label className="block text-sm font-semibold text-gray-700 mb-2">Select Size</label>
@@ -119,7 +119,6 @@ const ProductDetails = () => {
               </div>
             )}
 
-            {/* Quantity */}
             <div className="mb-8">
               <label className="block text-sm font-semibold text-gray-700 mb-2">Quantity</label>
               <div className="flex items-center border border-gray-300 rounded-lg w-max">
@@ -139,7 +138,7 @@ const ProductDetails = () => {
               </div>
             </div>
 
-            {/* Action Buttons */}
+           
             <div className="flex gap-4 mt-auto">
               <button 
                 onClick={() => alert('Product added to cart successfully!')}

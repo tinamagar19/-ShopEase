@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     setError('');
 
-    // Basic frontend validation mock
+  
     if (!email || !password) {
       setError('Please fill in all fields.');
       return;
@@ -22,7 +22,7 @@ const Login = () => {
       return;
     }
 
-    // Mock successful login
+  
     setTimeout(() => {
       navigate('/');
     }, 1000);
@@ -31,7 +31,7 @@ const Login = () => {
   return (
     <div className="min-h-[80vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-4xl w-full flex bg-white rounded-2xl shadow-xl overflow-hidden min-h-[500px]">
-        {/* Left Side - Image/Branding */}
+       
         <div className="hidden md:flex md:w-1/2 bg-rose-50 flex-col items-center justify-center p-12 relative overflow-hidden">
           <div className="z-10 text-center mb-8">
             <Link to="/" className="inline-flex items-center gap-2 mb-6">
@@ -45,13 +45,13 @@ const Login = () => {
           </div>
           
           <div className="z-10 mt-8 relative w-full max-w-[250px]">
-             {/* Abstract Shopping Bags Illustration placeholder */}
+           
              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-pink-200 rounded-full blur-3xl opacity-50 -z-10"></div>
              <img src="https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=500&q=80" alt="Shopping bags" className="w-full h-auto object-contain rounded-xl shadow-lg mix-blend-multiply" />
           </div>
         </div>
 
-        {/* Right Side - Form */}
+     
         <div className="w-full md:w-1/2 p-8 sm:p-12 flex flex-col justify-center">
           <h2 className="text-2xl font-heading font-bold text-textDark mb-8">Login</h2>
           

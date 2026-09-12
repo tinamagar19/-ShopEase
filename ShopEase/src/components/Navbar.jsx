@@ -19,13 +19,13 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
         
-        {/* Logo */}
+    
         <Link to="/" className="flex items-center gap-2 font-bold text-2xl text-gray-900">
           <span className="bg-rose-600 text-white p-2 rounded-xl"><ShoppingBag className="w-6 h-6" /></span>
           ShopEase
         </Link>
 
-        {/* Nav Links */}
+     
         <div className="hidden md:flex items-center gap-8 font-medium text-gray-600">
           <Link to="/" className="hover:text-rose-600 transition">Home</Link>
           <Link to="/products" className="hover:text-rose-600 transition">Products</Link>
@@ -33,7 +33,7 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
           <Link to="/blog" className="hover:text-rose-600 transition">Blog</Link>
         </div>
 
-        {/* Search Bar */}
+     
         <div className="flex-1 max-w-md relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input 
@@ -45,7 +45,7 @@ const Navbar = ({ searchQuery, setSearchQuery }) => {
           />
         </div>
 
-        {/* Right Icons */}
+     
         <div className="flex items-center gap-6 text-gray-700">
           <button className="hover:text-rose-600 transition"><Heart className="w-6 h-6" /></button>
           <Link to="/cart" className="hover:text-rose-600 transition relative">

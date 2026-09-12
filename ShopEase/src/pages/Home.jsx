@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
+   
       <section className="bg-white border-b">
         <div className="container mx-auto px-4 py-16 lg:py-24 flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-xl">
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Promotional Banner */}
+    
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <div className="bg-gradient-to-r from-orange-100 to-rose-100 rounded-2xl overflow-hidden flex flex-col md:flex-row items-center">
           <div className="p-10 md:w-1/2">
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Products */}
+   
       <section className="container mx-auto px-4 py-12">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">Featured Products</h2>
